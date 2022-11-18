@@ -2,7 +2,7 @@
 
 ## Running the Application
 
-- `git clone && cd java-mysql-example`
+- `git clone https://github.com/probstin/java-mysql-example.git && cd java-mysql-example`
 - `cp mysql.env.EXAMPLE mysql.env`
 - Specify a `MYSQL_PASSWORD` for the created user: `example_user`
 - Inspect te `docker/mysql/init.sql` file to see where the `example_db` is created and the `example_user` is granted permission.
